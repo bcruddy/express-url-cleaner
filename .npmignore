@@ -1,0 +1,5 @@
+/test
+.nvmrc
+coverage
+.nyc_output
+.eslintrc

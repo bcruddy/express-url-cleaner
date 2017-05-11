@@ -1,0 +1,27 @@
+{
+    "name": "express-url-cleaner",
+    "version": "0.0.1",
+    "description": "express middleware for sanitizing urls",
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bcruddy/expresss-url-cleaner"
+    },
+    "author": "Brian Ruddy <briancruddy@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node -e 'require(\"./test/app\").listen(3001)'",
+        "test": "nyc -a --branches 100 --functions 100 --lines 100 --statements 100 --check-coverage --reporter html --exclude coverage --exclude test mocha test",
+        "pretest": "eslint lib/*.js test/*.js"
+    },
+    "devDependencies": {
+        "eslint": "^3.19.0",
+        "express": "^4.15.2",
+        "mocha": "^3.3.0",
+        "nyc": "^10.2.0",
+        "supertest": "^3.0.0"
+    },
+    "dependencies": {
+        "sanitizer": "^0.1.3"
+    }
+}

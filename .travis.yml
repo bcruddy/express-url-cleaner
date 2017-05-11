@@ -1,0 +1,13 @@
+dist: trusty
+language: node_js
+node_js: 6.10.2
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: briancruddy@gmail.com
+  api_key:
+    secure: yictHolfhQc8vZcSvJnyyYvnSH4oqHQUZKwAIikuyZo4w684MTGzn4nQlo2kZOpskyBKqEgIqOugUdNz3szJJUEjwr7BioCfSPk0nhSv31S6emxtd1xO+suu2Oiy9UCtTsR5SweeIKrJulhXCKzF/9lhPrcihX3rS290sB/CDVbPNA+crRwZyQwiyxjboK80BqlnWD4PJ1RkDHlAPUDoad67AVBt3Cq71Dcezm2M4xMVH8gCN6t1anX108WRkxR9B0/Zird2mvxOIFbmFS+V+iTE67saxjxopNQlG+SQ7V7RcbbU4sT54WGeqUt7tPxmEcPNJtHUu6hUmaTVqLZUuMAddmUB72emm9ufwtI+H0HxrkGwueM9OHHB5KiDBfw9yvigYXwNi+V478RjpYnY5ULvqTkr8oekwAt2D9KIFrL1tcjAOyvzVqvNtSL7FsQdOMyw3kCDv02sHWg105s3K9IM6QniFyxlT/O0TOSeY2pa8Db9lB7AjKtDpC0B+PWxXJJnYbEET9bEbicdD4VSiOEjkHOzUTy4DLKLLkPpsnBEYjLo2yWDSyrPmA8St312LgcU0sI7zIRol1pD++pYpxmgXVGe7RKdpF5xoMs8djtohGp7EUn7WSBrSkBF45taoO8uS5rkheAMpMzc+PEHhPvgeNce8e5Zb4hq8uoP6yQ=
+  on:
+    branch: master
+    repo: bcruddy/express-url-cleaner
