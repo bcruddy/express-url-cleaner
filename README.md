@@ -1,18 +1,17 @@
-[![npm version](https://badge.fury.io/js/no-slash.svg)](https://badge.fury.io/js/no-slash)
-[![Build Status](https://travis-ci.org/bcruddy/no-slash.svg?branch=master)](https://travis-ci.org/bcruddy/no-slash)
+[![npm version](https://badge.fury.io/js/express-url-cleaner.svg)](https://badge.fury.io/js/express-url-cleaner)
+[![Build Status](https://travis-ci.org/bcruddy/express-url-cleaner.svg?branch=master)](https://travis-ci.org/bcruddy/express-url-cleaner)
 
-# no-slash
-Express middleware for forcing no trailing url slash via redirect.
-Defaults to a 301, status code can be passed as an argument.
+# express-url-cleaner
+Express middleware for sanitizing urls with the [sanitize]() module
 
 ### Usage
 - Requires node 6+
-- `$ yarn install no-slash --save` or `$ npm install no-slash --save`
+- `$ yarn install express-url-cleaner --save` or `$ npm install express-url-cleaner --save`
 
 ```javascript
 const express = require('express'),
-    noSlash = require('no-slash'),
+    urlCleaner = require('express-url-cleaner'),
     app = express();
 
-app.use(noSlash());
+app.use(urlCleaner());
 ```
