@@ -32,5 +32,12 @@ describe('the express-url-cleaner module', function () {
                 .expect('location', '/path?key=')
                 .expect(301, done);
         });
+
+        it('GET /path?<script>alert("hello!")</script> - 301', done => {
+            request(app)
+                .get('/path?<script>alert("hello!")</script>')
+                .expect('location', '/path?')
+                .expect(301, done);
+        });
     });
 });
