@@ -5,7 +5,7 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bcruddy/expresss-url-cleaner"
+        "url": "https://github.com/bcruddy/express-url-cleaner"
     },
     "author": "Brian Ruddy <briancruddy@gmail.com>",
     "license": "MIT",
