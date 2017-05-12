@@ -1,11 +1,11 @@
 {
     "name": "express-url-cleaner",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "express middleware for sanitizing urls",
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bcruddy/expresss-url-cleaner"
+        "url": "https://github.com/bcruddy/express-url-cleaner"
     },
     "author": "Brian Ruddy <briancruddy@gmail.com>",
     "license": "MIT",
