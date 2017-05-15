@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/bcruddy/express-url-cleaner.svg?branch=master)](https://travis-ci.org/bcruddy/express-url-cleaner)
 
 # express-url-cleaner
-Express middleware for sanitizing urls with the [sanitize]() module
+Express middleware for sanitizing urls with the [sanitizer](https://www.npmjs.com/package/sanitizer) module
 
 ### Usage
 - Requires node 6+
