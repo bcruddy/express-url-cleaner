@@ -1,6 +1,6 @@
 {
     "name": "express-url-cleaner",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "express middleware for sanitizing urls",
     "main": "lib/index.js",
     "repository": {
