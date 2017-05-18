@@ -1,5 +1,4 @@
 const express = require('express'),
-    // urlCleaner = require('../lib'),
     response = (req, res) => {
         res.json({msg: 'done'});
     };
