@@ -50,7 +50,7 @@ describe('the express-url-cleaner module', function () {
     });
 });
 
-describe('the express-url-cleaner module', function () {
+describe('the express-url-cleaner ES5 module', function () {
     let app;
 
     before(() => {
