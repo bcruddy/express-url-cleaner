@@ -1,10 +1,10 @@
 const express = require('express'),
-    urlCleaner = require('../lib'),
+    // urlCleaner = require('../lib'),
     response = (req, res) => {
         res.json({msg: 'done'});
     };
 
-module.exports = () => express()
+module.exports = (urlCleaner) => express()
     .enable('strict routing')
     .use(urlCleaner())
     .get('/', response)
