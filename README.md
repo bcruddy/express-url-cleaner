@@ -6,7 +6,7 @@ Express middleware for sanitizing urls with the [sanitizer](https://www.npmjs.co
 
 ### Usage
 - node 6+ recommended, for node < 6 an ES5 module is available at `lib/es5.js`
-- `$ yarn install express-url-cleaner --save` or `$ npm install express-url-cleaner --save`
+- `$ yarn add express-url-cleaner` or `$ npm install express-url-cleaner --save`
 
 ```javascript
 const express = require('express'),
@@ -25,3 +25,10 @@ const express = require('express'),
 
 app.use(urlCleaner());
 ```
+
+### Contributing
+Fork the repo and pull requests are always welcome. Please reference an issue in all pull requests, create one for the feature or bug if it doesn't exist yet.
+
+### Testing
+- Tests are run with [jest](https://facebook.github.io/jest/) and 100% coverage is required.
+- Linting with [eslint](http://eslint.org/).
