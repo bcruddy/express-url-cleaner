@@ -7,7 +7,7 @@ const App = require('./app'),
     describe('the express-url-cleaner module', function () {
         let app;
 
-        before(() => {
+        beforeAll(() => {
             app = App(cleaner);
         });
 

@@ -1,0 +1,19 @@
+{
+    "globals": {},
+    "testRegex": "\\.(test|spec)\\.js$",
+    "moduleFileExtensions": ["js"],
+    "mapCoverage": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "lib/*.js"
+    ],
+    "coveragePathIgnorePatterns": [],
+    "coverageThreshold": {
+        "global": {
+            "branches": 100,
+            "functions": 100,
+            "lines": 100,
+            "statements": 100
+        }
+    }
+}
