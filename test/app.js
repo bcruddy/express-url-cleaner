@@ -3,6 +3,8 @@ const express = require('express'),
         res.json({msg: 'done'});
     };
 
+console.log(JSON.stringify(process.env, null, 4));
+
 module.exports = (urlCleaner) => express()
     .enable('strict routing')
     .use(urlCleaner())

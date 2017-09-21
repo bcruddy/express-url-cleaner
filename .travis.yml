@@ -3,6 +3,8 @@ language: node_js
 node_js: 6.10.2
 notifications:
   email: false
+env:
+    secure: KQ5BYsaMl4fTc5Any4vT960cuTydH5efk1KsVAhfDUYSplYra9h/Z1H65Lhb3vQPVSRnKIpNvA7hrmWQtbm88FxqcPzR8ftK5W6WSGgrJnA3yTA7aA3E5MZYGJAukPKVCvE9Wbdlv8B2T82N/FWWnQPF/ZIV+vjXrB4rIQ66/P/mS+9J2HWk5qbLi3/SUTfpM4sqmzXVvdouw/6zvgcXQbKEpjfnEpmztZu8EM98HciReKL3CFEYhz2ep/CO+M/TB6r1QN5p+tKivRYVdUIt9Ire4dMqLmiAqCK8RsYVOpMyLp/DVDU2mDEtss/kwco5TBzG2lpbXQ9Xbfy2rmFqqh0R0OjwJ9sxc2mS+cUN3ytND/jnKG4pRefaq/TtfouYOT/v0SfB6vaG0Sg4z8I48ikpm4vtXAcbrtqG5jaf/HjMS9BDuK86u7hhp4aCiy89EmRjXLBUSyIwtcQk68Z9uDWSib04I0qh8lk/78Vl1a3TktvAt2uaVk2PFGguX+YeywwLGGU5f/gXeJsHZxj5l/kJUmvxzkYUtTrLqikEc6B6HTi5fdtRXD3LVUT/PHt0V4D0zwFWBSentmYwPc9XuxF/EIIZiyIAGces74fSLbOe+aoYq5HZkKRWdBhk/ecY9xdG0aVrvVUOaz04Pa21iGfQv28fbGUew0LGx4sVoVo=
 deploy:
   provider: npm
   email: briancruddy@gmail.com
